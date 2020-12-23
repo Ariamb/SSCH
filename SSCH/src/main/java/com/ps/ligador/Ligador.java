@@ -270,7 +270,7 @@ public class Ligador {
         //SÃ³ usar o stacksize que o montador mandou?
         //stackSize = Codigo.size();
         
-        int initEnd = stackSize + 2;
+        int initEnd = stackSize + 3;
         
         String header = stackSize + "\n";       //Tamanho da Pilha
         for (Integer i : Absolutos){
